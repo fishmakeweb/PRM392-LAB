@@ -2,4 +2,28 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Layout 1 Colors -->
+    <color name="purple">#800080</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="teal">#008080</color>
+    
+    <!-- Layout 2 Colors -->
+    <color name="blue">#0000FF</color>
+    <color name="olive">#556B2F</color>
+    <color name="red">#FF0000</color>
+    <color name="brown">#A52A2A</color>
+    <color name="pink">#FFC1CC</color>
+    
+    <!-- Layout 4 Facebook Colors -->
+    <color name="facebook_blue">#3B5998</color>
+    <color name="facebook_dark_blue">#2E4373</color>
+    
+    <!-- Layout 5 Instagram Colors -->
+    <color name="instagram_purple_start">#C13584</color>
+    <color name="instagram_purple_end">#833AB4</color>
+    
+    <!-- Common Colors -->
+    <color name="gray">#808080</color>
 </resources>

@@ -1,6 +1,8 @@
 package com.example.lab01
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +17,30 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        setupButtonListeners()
+    }
+
+    private fun setupButtonListeners() {
+        findViewById<Button>(R.id.btn_layout1).setOnClickListener {
+            startActivity(Intent(this, Layout1Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_layout2).setOnClickListener {
+            startActivity(Intent(this, Layout2Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_layout3).setOnClickListener {
+            startActivity(Intent(this, Layout3Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_layout4).setOnClickListener {
+            startActivity(Intent(this, Layout4Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_layout5).setOnClickListener {
+            startActivity(Intent(this, Layout5Activity::class.java))
         }
     }
 }
