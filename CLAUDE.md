@@ -71,3 +71,4 @@ cd Lab01
 - Multiple lab requirements are documented in the `Requirements/` directory
 - The project follows standard Android development practices with modern tooling
 - When working with layouts, the main activity uses ConstraintLayout for responsive design
+- **IMPORTANT**: Do not automatically build the project after making changes. Only build when explicitly requested by the user.
