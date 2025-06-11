@@ -36,6 +36,18 @@
         <activity
             android:name=".Layout5Activity"
             android:exported="false" />
+        <activity
+            android:name=".Lab4MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lab5MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

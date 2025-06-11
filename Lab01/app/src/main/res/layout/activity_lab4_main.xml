@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐẶT THỨC ĂN VÀ ĐỒ UỐNG"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonChooseFood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="CHỌN THỨC ĂN"
+        android:textSize="18sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonChooseDrink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="CHỌN ĐỒ UỐNG"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonChooseFood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSelectedFood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Chưa chọn thức ăn"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:padding="8dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintTop_toBottomOf="@id/buttonChooseDrink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSelectedDrink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Chưa chọn đồ uống"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:padding="8dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintTop_toBottomOf="@id/textViewSelectedFood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị kết quả trả về của 2 activity 'Chọn thức ăn' và 'Chọn Đồ uống'"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:padding="16dp"
+        android:background="@android:color/holo_blue_light"
+        app:layout_constraintTop_toBottomOf="@id/textViewSelectedDrink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="THOÁT"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -55,6 +55,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/layout5_button"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_lab4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 4: Intent - Food &amp; Drink Order"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_lab5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 5: RecyclerView Demo"
         android:padding="16dp" />
 
 </LinearLayout>
