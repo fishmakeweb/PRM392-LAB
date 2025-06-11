@@ -43,12 +43,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Layout5Activity::class.java))
         }
         
-        findViewById<Button>(R.id.btn_lab4).setOnClickListener {
-            startActivity(Intent(this, Lab4MainActivity::class.java))
-        }
-        
-        findViewById<Button>(R.id.btn_lab5).setOnClickListener {
-            startActivity(Intent(this, Lab5MainActivity::class.java))
-        }
     }
 }

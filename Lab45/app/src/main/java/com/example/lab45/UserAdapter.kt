@@ -1,4 +1,4 @@
-package com.example.lab01
+package com.example.lab45
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,10 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 class UserAdapter(private val users: List<User>) : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
     
     class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val textViewName: TextView = itemView.findViewById(R.id.textViewName)
+        val textViewUsername: TextView = itemView.findViewById(R.id.textViewUsername)
+        val textViewFullname: TextView = itemView.findViewById(R.id.textViewFullname)
         val textViewEmail: TextView = itemView.findViewById(R.id.textViewEmail)
-        val textViewPhone: TextView = itemView.findViewById(R.id.textViewPhone)
-        val textViewId: TextView = itemView.findViewById(R.id.textViewId)
     }
     
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
@@ -23,10 +22,9 @@ class UserAdapter(private val users: List<User>) : RecyclerView.Adapter<UserAdap
     
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val user = users[position]
-        holder.textViewName.text = user.name
+        holder.textViewUsername.text = user.username
+        holder.textViewFullname.text = user.fullname
         holder.textViewEmail.text = user.email
-        holder.textViewPhone.text = user.phone
-        holder.textViewId.text = "ID: ${user.id}"
     }
     
     override fun getItemCount(): Int = users.size
