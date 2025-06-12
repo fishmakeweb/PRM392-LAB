@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6B24DF"
+        android:text="Máy Tính"
+        android:textAlignment="center"
+        android:textColor="#FBF9F9"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtFirst"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/edt_custom"
+        android:ems="10"
+        android:hint="Nhập số thứ nhất"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtSec"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edt_custom"
+        android:ems="10"
+        android:hint="Nhập số thứ hai"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_custom"
+            android:text="Cộng"
+            android:textSize="12sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_custom"
+            android:text="Trừ"
+            android:textSize="12sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnMult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_custom"
+            android:text="Nhân"
+            android:textSize="12sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_custom"
+            android:text="Chia"
+            android:textSize="12sp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Kết quả:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>

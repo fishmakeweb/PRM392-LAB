@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8EAF6"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1C0F4"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:text="True Random Number Generator"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Min:"
+            android:textColor="#757171" />
+
+        <EditText
+            android:id="@+id/editMin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_custom"
+            android:inputType="number"
+            android:padding="8dp"
+            android:text="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Min:"
+            android:textColor="#757171" />
+
+        <EditText
+            android:id="@+id/editMax"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_custom"
+            android:inputType="number"
+            android:padding="8dp"
+            android:text="100" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/custom_btn"
+        android:text="Generate"
+        android:textColor="#100F0F"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Result:"
+        android:textColor="#757171"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edt_custom"
+        android:padding="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Lab45</string>
+    <style name="Base.Theme.Lab45" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/black</item>
+    </style>
+    <style name="Theme.Lab45" parent="Base.Theme.Lab45"/>
+</resources>

@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonChooseDrink
+id buttonChooseFood
+id buttonExit
+id buttonOrder
+id radioGroupDrink
+id radioGroupFood
+id recyclerViewUsers
+id textViewEmail
+id textViewFullname
+id textViewResult
+id textViewSelectedDrink
+id textViewSelectedFood
+id textViewTitle
+id textViewUsername
+layout activity_drink
+layout activity_food
+layout activity_lab4_main
+layout activity_lab5_main
+layout activity_main
+layout item_user
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Lab45
+style Theme.Lab45
+xml backup_rules
+xml data_extraction_rules
